@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(19deg,#121313 0%,#b721ff); 
+    text-shadow: 0px 0px 8px gray;
+}
+h1{
+    color: white;
+    margin: 15px;
+    text-shadow: 0px 0px 8px wheat;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 15px;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin: 15px;
+    cursor: pointer;
+    outline: none;
+    background:repeating-linear-gradient(120deg,black,#b721ff);
+    color: white;
+    border: none;
+    animation: button 2s ease-in-out infinite;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgb(167, 165, 165);
+}
+@keyframes button{
+  0%{
+    background:repeating-linear-gradient(240deg,black,#b721ff);
+  }
+}
